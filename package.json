@@ -1,0 +1,9 @@
+{
+	"scripts": {
+		"minify": "terser quick.js -o quick.min.js && csso quick.css -o quick.min.css"
+	},
+	"dependencies": {
+		"csso-cli": "^4.0.2",
+		"terser": "^5.39.0"
+	}
+}
